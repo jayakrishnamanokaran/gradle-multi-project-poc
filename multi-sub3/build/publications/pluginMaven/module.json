@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gradlepoc.multisub3",
+    "module": "multi-sub3",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "multi-sub3-unspecified.jar",
+          "url": "multi-sub3-unspecified.jar",
+          "size": 1674,
+          "sha512": "88d40341833a0a4dc1c30ce28a37f0037ae2f0c02e55561e7a219ad54fd45b5ea36058e78fd013577a36bad8664740832d093aa3cb0649daf81f047352d8d4c5",
+          "sha256": "6188a7f8c2a800fd0b18029da6a57c208864b5a31ebe6f735b3ba17e06ec8966",
+          "sha1": "9399829bcb5d646c385094e80b01a035878c7885",
+          "md5": "82f3084161ca820cf0ad8602018ec3eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "multi-sub3-unspecified.jar",
+          "url": "multi-sub3-unspecified.jar",
+          "size": 1674,
+          "sha512": "88d40341833a0a4dc1c30ce28a37f0037ae2f0c02e55561e7a219ad54fd45b5ea36058e78fd013577a36bad8664740832d093aa3cb0649daf81f047352d8d4c5",
+          "sha256": "6188a7f8c2a800fd0b18029da6a57c208864b5a31ebe6f735b3ba17e06ec8966",
+          "sha1": "9399829bcb5d646c385094e80b01a035878c7885",
+          "md5": "82f3084161ca820cf0ad8602018ec3eb"
+        }
+      ]
+    }
+  ]
+}

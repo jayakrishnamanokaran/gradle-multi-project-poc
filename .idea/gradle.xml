@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/multi-sub1" name="multi-sub1">
+                <projects>
+                  <project path="$PROJECT_DIR$/multi-sub1" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/multi-sub2" name="multi-sub2">
+                <projects>
+                  <project path="$PROJECT_DIR$/multi-sub2" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/multi-sub3" name="multi-sub3">
+                <projects>
+                  <project path="$PROJECT_DIR$/multi-sub3" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-7.4.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/multi-sub1" />
+            <option value="$PROJECT_DIR$/multi-sub2" />
+            <option value="$PROJECT_DIR$/multi-sub3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

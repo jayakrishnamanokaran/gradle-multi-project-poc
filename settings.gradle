@@ -1,0 +1,5 @@
+rootProject.name = 'multi-root'
+includeBuild('multi-sub1')
+includeBuild('multi-sub2')
+includeBuild 'multi-sub3'
+

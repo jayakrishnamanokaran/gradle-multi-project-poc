@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'java-gradle-plugin'
+    id 'groovy'
+    id 'maven-publish'
+}
+
+group 'org.gradlepoc.multisub3'
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+gradlePlugin {
+    plugins {
+        abc {
+            id = 'org.gradlepoc.multisub3'
+            implementationClass = 'PluginB'
+        }
+    }
+}

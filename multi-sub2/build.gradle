@@ -1,0 +1,4 @@
+plugins {
+    id 'org.gradlepoc.multisub1'
+    id 'org.gradlepoc.multisub3'
+}
